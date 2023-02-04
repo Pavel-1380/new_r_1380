@@ -8,3 +8,9 @@ result.classList.add('result');
 const buttons = ['back', 'c', '*', '/', '7', '8', '9', '+',
 '4', '5', '6', '-', '1', '2', '3', '.', '0', '='];
 
+for(i of buttons){
+  const button = document.createElement('button');
+  button.classList.add('button');
+  button.innerText = i;
+  
+
