@@ -13,4 +13,4 @@ for(i of buttons){
   button.classList.add('button');
   button.innerText = i;
   
-
+}
