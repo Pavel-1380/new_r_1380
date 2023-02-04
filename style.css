@@ -1,0 +1,6 @@
+.calculator{
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr 1fr;
+    width: 400px;
+    grid-auto-rows: 30px;
+}
